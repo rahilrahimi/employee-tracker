@@ -3,21 +3,31 @@
 ## Description
 this is a command-line application that accepts user input to manage a company's employee database. AS a business owner you will be able to view and manage the departments, roles, and employees in your company. Therefor, you can organize and plan your business.
 
+## Table of Contents 
+
+1. [Installations & Dependencies](##Installations-And-Dependencies)
+
+2. [Usage](##Usage) 
+
 ## Technologies Used
 Node.js
 Inquirer
 MySQL
 
 ## As a User
-clone the repo
+Clone the repo
 
-install dependencies: npm install
+Install dependencies: npm install
 
-update connection.js with mysql credentials 
+Update connection.js with mysql credentials
 
-mysql shell: source db/db.sql
+Add .env file with mysql credentials
 
-## Acceptance Criteria
+Run mysql shell: source db/db.sql
+
+Creating and seeding database using mysql to create the table for database "source db.sql" and seeds data by "seeds.sql" then we can start the app by using npm start
+
+## App Criteria
 WHEN I start the application
 
 THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
@@ -52,3 +62,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-Up Demo
 https://watch.screencastify.com/v/qNmiwiZmg7n4NUmL7Dpg
+
+
+
